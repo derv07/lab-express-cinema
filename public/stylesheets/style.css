@@ -6,3 +6,38 @@ body {
 a {
   color: #00B7FF;
 }
+
+.movies-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2rem;
+}
+
+.movie-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  max-width: 300px;
+}
+
+.movie-img {
+  width: 480px;
+  height: auto;
+}
+
+.showtime {
+  display: inline;
+  flex-direction: column;
+}
